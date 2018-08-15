@@ -1,5 +1,4 @@
 $("#family").click(function(){
-  console.log("family!");
     $("#family").show();
   $("h2").text("People come and go in our lives, but a beauty of life is that our family is always there.");
   $("h3").text("You have to realize that there is something special within you, a basic goodness that you must choose to manifest in every way you can - toward your family, your profession and your planet. Each of us has something good to offer.");

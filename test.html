@@ -1,6 +1,7 @@
-.font{
-  font-family: "Times New Roman", Times, serif;
-}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 ul {
     list-style-type: none;
     margin: 0;
@@ -12,19 +13,18 @@ ul {
 li {
     float: left;
     border-left:1px solid #bbb;
-    font-size: 20px;
 }
 
 li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 20px 25px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: DimGrey;
+    background-color: red;
 }
 
 li.dropdown {
@@ -53,25 +53,23 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+</style>
+</head>
+<body>
 
-.button {
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    font-size: 20px;
-    cursor: pointer;
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="Symptoms">Symptoms</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Advise</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
 
-}
 
-.button:hover {
-    background-color: DimGrey;
-}
-
-h1{
-
-  font-size: 100px;
-}
-body{
-background-color:
+</body>
+</html>
