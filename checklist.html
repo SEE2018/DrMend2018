@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <head>
 
-<form action="/action_page.php" method="get">
-  <input type="checkbox" name="symptom" value="Cough">Cough <br>
-  <input type="checkbox" name="syptom" value="Sore Throat">Sore Throat <br>
-  <input type="checkbox" name="syptom" value="Headache"> Headache<br>
-  <input type="checkbox" name="syptom" value="Rashes">Rash<br>
-  <input type="checkbox" name="syptom" value="Fatigue">Fatigue<br>
-  <input type="submit" value="Submit">
-</form>
+  </head>
+  <body>
 
-</body>
+  <form action="/action_page.php" method="get">
+    <input type="checkbox" name="symptom" value="Cough">Cough <br>
+    <input type="checkbox" name="syptom" value="Sore Throat">Sore Throat <br>
+    <input type="checkbox" name="syptom" value="Headache">Headache<br>
+    <input type="checkbox" name="syptom" value="Rashes">Rash<br>
+    <input type="checkbox" name="syptom" value="Fatigue">Fatigue<br>
+    </form>
+    <div class="search-bar">
+      <input type="text" id="seeker">
+    </div>
+      <input type="submit" value="Submit">
+    <div id="content"></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="check_list.js"></script>
+  </body>
 </html>
